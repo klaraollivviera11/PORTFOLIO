@@ -40,7 +40,7 @@ const Experiences = ({ lang = "EN" }) => {
       className={`experiences-section${hasAnimatedOnce ? " animate-visible" : ""}`}
     >
       <div className="experiences-panel">
-        <h2 className="section-heading experiences-heading font-bold">{heading}</h2>
+        <h2 className="section-heading skills-heading font-bold">{heading}</h2>
         <div className="experiences-card-stack">
           <article className="experience-card">
             {experienceEntries.map((entry, index) => (
