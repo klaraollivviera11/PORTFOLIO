@@ -55,7 +55,7 @@
   --skills-pill-bg: #ececec;
   --skills-pill-hover-border: rgba(0, 0, 0, 0.8);
   --skills-pill-hover-bg: #f2f2f2;
-  --experiences-panel-bg: #f4f4f4;
+  --experiences-panel-bg: #ececec;
   --experiences-panel-border: rgba(0, 0, 0, 0.12);
   --experiences-card-bg: #f2f2f2;
   --experiences-card-border: rgba(0, 0, 0, 0.08);
@@ -64,7 +64,16 @@
   --experiences-period-bg: rgba(0, 0, 0, 0.05);
   --experiences-line-gradient: linear-gradient(180deg, #121521, #38476b, #b6192e, #ffc1ac, #121521);
   --experiences-line-glow: rgba(188, 143, 143, 0.35);
-  --projects-panel-bg: #f8f8f8;
+  --projects-panel-bg: #ececec;
+  --projects-panel-border: rgba(0, 0, 0, 0.08);
+  --projects-card-bg: #f2f2f2;
+  --projects-card-border: rgba(0, 0, 0, 0.08);
+  --projects-text: #111111;
+  --projects-pill-bg: #ffffff;
+  --projects-pill-border: rgba(0, 0, 0, 0.1);
+  --projects-shadow: 0 35px 85px rgba(0, 0, 0, 0.25);
+  --contact-card-bg: #f2f2f2;
+  --contact-email-bg: #f2f2f2;
 }
 
 .dark {
@@ -96,7 +105,7 @@
   --skills-pill-bg: rgba(255, 255, 255, 0.08);
   --skills-pill-hover-border: rgb(255, 255, 255);
   --skills-pill-hover-bg: rgba(0, 0, 0, 0.12);
-  --experiences-panel-bg: #0b0b0b;
+  --experiences-panel-bg: rgba(255, 255, 255, 0.04);
   --experiences-panel-border: rgba(255, 255, 255, 0.18);
   --experiences-card-bg: #121212;
   --experiences-card-border: rgba(255, 255, 255, 0.18);
@@ -105,14 +114,16 @@
   --experiences-period-bg: rgba(255, 255, 255, 0.15);
   --experiences-line-gradient: linear-gradient(180deg, #84a9ff, #f5f8ff);
   --experiences-line-glow: rgba(132, 169, 255, 0.45);
-  --projects-panel-bg: #111111;
+  --projects-panel-bg: rgba(255, 255, 255, 0.04);
   --projects-panel-border: rgba(255, 255, 255, 0.18);
-  --projects-card-bg: #151515;
+  --projects-card-bg: rgba(255, 255, 255, 0.04);
   --projects-card-border: rgba(255, 255, 255, 0.18);
   --projects-shadow: 0 35px 85px rgba(0, 0, 0, 0.8);
   --projects-text: #fdfdfd;
   --projects-pill-bg: rgba(255, 255, 255, 0.08);
-  --projects-pill-border: rgba(255, 255, 255, 0.25);
+  --projects-pill-border: 0 35px 75px rgba(0, 0, 0, 0.15);
+  --contact-card-bg: #121212;
+  --contact-email-bg: #1a1919;
 }
 
 * {
@@ -155,12 +166,11 @@ section {
   .contact-panel,
   .projects-panel,
   .about-panel,
-  .skills-panel,
-  .experiences-panel {
-    padding: clamp(1.75rem, 2vw, 2.5rem);
-  }
-
-  .projects-grid {
+  .skills-panel {
+    background: var(--about-panel-bg);
+    border-radius: 40px;
+    border: 1px solid var(--about-panel-border);
+    box-shadow: 0 35px 75px rgba(0, 0, 0, 0.15);
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   }
 
@@ -353,7 +363,7 @@ section {
 .contact-card {
   border-radius: 24px;
   padding: 1.5rem;
-  background: var(--container);
+  /* background: var(--contact-card-bg); */
   border: 1px solid rgba(0, 0, 0, 0.08);
 }
 
@@ -875,7 +885,7 @@ section {
 .contact-card {
   border-radius: 32px;
   border: 1px solid var(--about-pill-border);
-  background: var(--container);
+  background: var(--about-card-bg);
   padding: clamp(1.5rem, 2.2vw, 2rem);
   display: flex;
   flex-direction: column;
@@ -954,7 +964,7 @@ section {
 }
 
 .dark .contact-email-pill {
-  background: var(--experiences-panel-bg);
+  background: #1a1919;
   border-color: rgba(255, 255, 255, 0.3);
   box-shadow: 0 10px 20px rgba(255, 255, 255, 0.08);
 }
@@ -1312,7 +1322,22 @@ section {
 
   .skills-heading {
     font-size: clamp(2rem, 5vw, 2.4rem);
-    letter-spacing: 0.04em;
+  }
+
+  .about-heading {
+    font-size: clamp(2rem, 5vw, 2.4rem);
+  }
+
+  .experiences-heading {
+    font-size: clamp(2rem, 5vw, 2.4rem);
+  }
+
+  .projects-heading {
+    font-size: clamp(2rem, 5vw, 2.4rem);
+  }
+
+  .contact-heading {
+    font-size: clamp(2rem, 5vw, 2.4rem);
   }
 
   .skills-grid {
@@ -1362,6 +1387,22 @@ section {
     font-size: clamp(1.8rem, 6vw, 2rem);
   }
 
+  .about-heading {
+    font-size: clamp(1.8rem, 6vw, 2rem);
+  }
+
+  .experiences-heading {
+    font-size: clamp(1.8rem, 6vw, 2rem);
+  }
+
+  .projects-heading {
+    font-size: clamp(1.8rem, 6vw, 2rem);
+  }
+
+  .contact-heading {
+    font-size: clamp(1.8rem, 6vw, 2rem);
+  }
+
   .skill-pill {
     font-size: 0.68rem;
     padding: 0.3rem 0.7rem;
@@ -1394,7 +1435,7 @@ section {
   width: min(100%, calc(100vw - 6vw));
   max-width: 2000px;
   background: var(--about-panel-bg);
-  border: 1px solid var(--experiences-panel-border);
+  border: 1px solid var(--about-panel-border);
   border-radius: 40px;
   padding: clamp(2rem, 3vw, 3.5rem);
   box-shadow: 0 35px 75px rgba(0, 0, 0, 0.15);
@@ -1524,9 +1565,9 @@ section {
   max-width: 2000px;
   background: var(--about-panel-bg);
   border-radius: 40px;
-  border: 1px solid var(--projects-panel-border);
+  box-shadow: 0 35px 75px rgba(0, 0, 0, 0.15);
+  border: 1px solid var(--about-panel-border);
   padding: clamp(2rem, 3vw, 3.25rem);
-  box-shadow: var(--projects-shadow);
   margin-inline: auto;
   position: relative;
 }
@@ -1565,7 +1606,6 @@ section {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  box-shadow: var(--projects-shadow);
   min-height: 420px;
   transition: transform 0.3s ease;
 }
@@ -1613,7 +1653,7 @@ section {
 .project-detail-button {
   margin-top: auto;
   align-self: flex-start;
-  border: none;
+  border: 1px solid var(--projects-panel-border);
   border-radius: 999px;
   padding: 0.85rem 2.5rem;
   background: var(--container);
@@ -1844,6 +1884,50 @@ body.contact-form-open #__next {
   }
 }
 
+@media (max-width: 640px) {
+  .experience-card {
+    border-radius: 24px;
+    padding: 1.25rem 1rem;
+    padding-left: 1.75rem;
+  }
+
+  .experience-row + .experience-row {
+    margin-top: 0.75rem;
+  }
+
+  .experience-details {
+    margin-left: 1.5rem;
+    gap: 0.4rem;
+  }
+
+  .experience-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.4rem;
+  }
+
+  .experience-company {
+    font-size: 0.7rem;
+    letter-spacing: 0.25em;
+    order: 2;
+  }
+
+  .experience-role {
+    font-size: 1.1rem;
+  }
+
+  .experience-summary {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+
+  .experience-period {
+    padding: 0.25rem 0.7rem;
+    order: 1;
+    font-size: 0.75rem;
+  }
+}
+
 .scroll-to-top {
   position: fixed;
   bottom: clamp(1.5rem, 3vw, 2.5rem);
@@ -2042,8 +2126,8 @@ body.contact-form-open #__next {
 }
 
 .mobile-header-control-outline {
-  border-radius: 5px;
-  padding: 2px;
+  border-radius: 10px;
+  padding: 1px;
   background-image: var(--outline-active);
   background-size: 200% 200%;
   animation: shiftGradient 4s linear infinite;
@@ -2051,18 +2135,20 @@ body.contact-form-open #__next {
 }
 
 .mobile-header-control-inner {
-  border-radius: 5px;
+  border-radius: 10px;
   width: 30px;
   height: 30px;
   background: var(--container);
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  font-size: 0.9rem;
-  letter-spacing: 0.2em;
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
   font-weight: 700;
   color: var(--text);
   transition: transform 0.2s ease;
+  transform: scale(0.9);
+  transform-origin: center;
 }
 
 .mobile-header-control-inner svg {
@@ -2138,9 +2224,9 @@ body.contact-form-open #__next {
 }
 
 .mobile-nav-top-label {
-  font-weight: 600;
+  font-weight: 1000;
   display: block;
-  margin-top: 0.9rem;
+  margin-top: 0.5rem;
 }
 
 .mobile-nav-top-close {
@@ -2148,7 +2234,7 @@ body.contact-form-open #__next {
   border: none;
   color: inherit;
   padding: 0;
-  margin-top: 0.9rem;
+  margin-top: 0.5rem;
 }
 
 .mobile-nav-links {
@@ -2170,8 +2256,8 @@ body.contact-form-open #__next {
 }
 
 .mobile-nav-icon-outline {
-  border-radius: 16px;
-  padding: 2px;
+  border-radius: 10px;
+  padding: 1px;
   background-image: var(--outline-active);
   background-size: 200% 200%;
   animation: shiftGradient 4s linear infinite;
@@ -2179,14 +2265,20 @@ body.contact-form-open #__next {
 }
 
 .mobile-nav-icon-inner {
-  border-radius: 12px;
-  width: 34px;
-  height: 34px;
+  border-radius: 10px;
+  width: 30px;
+  height: 30px;
   background: var(--container);
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  font-weight: 700;
   color: var(--text);
+  transition: transform 0.2s ease;
+  transform: scale(0.9);
+  transform-origin: center;
 }
 
 .mobile-nav-icon-inner svg {
