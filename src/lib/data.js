@@ -99,7 +99,7 @@ export const experiencesEN = {
       summary: "Built a company profile website using Laravel and Vue.js, including an admin panel and Docker-based deployment.",
     },
     {
-      role: "Committee Member",
+      role: "Event Committee Member",
       company: "DINAMIK (Computer Science Student Association, UPI)",
       period: "2024 & 2025",
       summary: "Participated in organizing the department’s annual anniversary events and served as PIC for a national-level poster competition.",
@@ -129,13 +129,13 @@ export const experiencesID = {
       summary: "Membangun website company profile menggunakan Laravel dan Vue.js dengan admin panel serta proses deployment berbasis Docker.",
     },
     {
-      role: "Committee Member",
+      role: "Staff Divisi Acara",
       company: "DINAMIK (Computer Science Student Association, UPI)",
       period: "2024 & 2025",
       summary: "Terlibat dalam pelaksanaan acara dies natalis jurusan serta menjadi penanggung jawab lomba poster tingkat nasional.",
     },
     {
-      role: "Public Relations",
+      role: "Hubungan Masyarakat",
       company: "Multimedia 06 (SMAN 6 Bandung)",
       period: "2022 – 2023",
       summary: "Mengelola hubungan eksternal, perizinan, dan komunikasi organisasi untuk kegiatan media sekolah.",
