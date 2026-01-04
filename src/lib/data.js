@@ -2,7 +2,7 @@ export const heroContent = {
   greeting: "Hello! I am",
   name: "Klara Ollivviera Augustine Gunawan",
   description:
-    "A Computer Science Student with a passion for Software Engineering. Focused on structured analysis and practical implementation in fast-paced environments.",
+    "Computer Science student with a strong interest in Software Engineering, focused on structured analysis and hands-on implementation.",
   cta: "Get To Know More!",
 };
 
@@ -10,14 +10,14 @@ export const heroContentId = {
   greeting: "Halo! Saya",
   name: "Klara Ollivviera Augustine Gunawan",
   description:
-    "Mahasiswa Ilmu Komputer dengan minat di bidang Rekayasa Perangkat Lunak. Fokus pada pendekatan analitis dan praktis dalam membangun solusi teknologi.",
+    "Mahasiswa Ilmu Komputer dengan minat pada Rekayasa Perangkat Lunak, berfokus pada analisis terstruktur dan implementasi praktis.",
   cta: "Mengenal Lebih Lanjut!",
 };
 
 export const aboutContentEn = {
     title: "About Me",
     description:
-        "I am a Computer Science student focusing on Software Engineering. Has experience in projects within the software engineering domain, involving structured analysis, system design, implementation, and testing. I demonstrate strong analytical thinking, adaptability, and a genuine interest in learning and developing technology in a structured and practical way.",
+        "I am Computer Science student with a strong interest in Software Engineering, involved in academic and practical projects covering analysis, system design, implementation, and testing. Demonstrates analytical thinking, adaptability, and a proactive approach to learning and applying technology through structured and hands-on work.",
     education: [
         {
             school: "Universitas Pendidikan Indonesia",
@@ -33,7 +33,7 @@ export const aboutContentEn = {
 export const aboutContentId = {
     title: "Tentang Saya",
     description:
-        "Saya Mahasiswa Ilmu Komputer dengan fokus Rekayasa Perangkat Lunak. Berpengalaman mengerjakan proyek yang mencakup analisis, perancangan, implementasi, dan pengujian perangkat lunak, serta memiliki kemampuan berpikir analitis, adaptif, dan minat kuat dalam mempelajari serta mengembangkan teknologi secara terstruktur dan praktis.",
+        "Saya mahasiswa Ilmu Komputer dengan minat yang kuat pada Rekayasa Perangkat Lunak, terlibat dalam berbagai proyek akademik dan praktis yang mencakup analisis, perancangan sistem, implementasi, serta pengujian. Menunjukkan kemampuan berpikir analitis, adaptif, dan sikap proaktif dalam mempelajari serta menerapkan teknologi melalui pendekatan yang terstruktur dan langsung.",
     education: [
         {
             school: "Universitas Pendidikan Indonesia",
