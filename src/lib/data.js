@@ -2,7 +2,7 @@ export const heroContent = {
   greeting: "Hello! I am",
   name: "Klara Ollivviera Augustine Gunawan",
   description:
-    "3rd Year Computer Science Student with a passion for Software Engineering. Focused on structured analysis and practical implementation in fast-paced environments.",
+    "A Computer Science Student with a passion for Software Engineering. Focused on structured analysis and practical implementation in fast-paced environments.",
   cta: "Get To Know More!",
 };
 
@@ -10,14 +10,14 @@ export const heroContentId = {
   greeting: "Halo! Saya",
   name: "Klara Ollivviera Augustine Gunawan",
   description:
-    "Mahasiswa Ilmu Komputer tahun ke-3. Fokus pada Software Engineering dengan pendekatan analitis dan praktis dalam membangun solusi teknologi.",
+    "Mahasiswa Ilmu Komputer dengan minat di bidang Rekayasa Perangkat Lunak. Fokus pada pendekatan analitis dan praktis dalam membangun solusi teknologi.",
   cta: "Mengenal Lebih Lanjut!",
 };
 
 export const aboutContentEn = {
     title: "About Me",
     description:
-        "3rd Year Computer Science student focusing on Software Engineering. Has experience in projects within the software engineering domain, involving structured analysis, system design, implementation, and testing. Demonstrates strong analytical thinking, adaptability, and a genuine interest in learning and developing technology in a structured and practical way.",
+        "I am a Computer Science student focusing on Software Engineering. Has experience in projects within the software engineering domain, involving structured analysis, system design, implementation, and testing. I demonstrate strong analytical thinking, adaptability, and a genuine interest in learning and developing technology in a structured and practical way.",
     education: [
         {
             school: "Universitas Pendidikan Indonesia",
@@ -27,13 +27,13 @@ export const aboutContentEn = {
         },
     ],
 
-    SeCore: ["Agile/Scrum", "WBS & Planning", "Testing", "Documentation", "Quality Assurance", "Deployment", "Management"],
+    SeCore: ["Agile/Scrum", "WBS & Planning", "Testing", "Documentation", "Quality Assurance", "Deployment", "Project Management"],
 };
 
 export const aboutContentId = {
     title: "Tentang Saya",
     description:
-        "Mahasiswa Ilmu Komputer tahun ke-3 dengan fokus Rekayasa Perangkat Lunak. Berpengalaman mengerjakan proyek yang mencakup analisis, perancangan, implementasi, dan pengujian perangkat lunak, serta memiliki kemampuan berpikir analitis, adaptif, dan minat kuat dalam mempelajari serta mengembangkan teknologi secara terstruktur dan praktis.",
+        "Saya Mahasiswa Ilmu Komputer dengan fokus Rekayasa Perangkat Lunak. Berpengalaman mengerjakan proyek yang mencakup analisis, perancangan, implementasi, dan pengujian perangkat lunak, serta memiliki kemampuan berpikir analitis, adaptif, dan minat kuat dalam mempelajari serta mengembangkan teknologi secara terstruktur dan praktis.",
     education: [
         {
             school: "Universitas Pendidikan Indonesia",
@@ -43,7 +43,7 @@ export const aboutContentId = {
         },
     ],
 
-    SeCore: ["Agile/Scrum", "WBS & Perencanaan", "Testing", "Dokumentasi", "Quality Assurance", "Deployment", "Manajemen"],
+    SeCore: ["Agile/Scrum", "WBS & Perencanaan", "Testing", "Dokumentasi", "Quality Assurance", "Deployment", "Manajemen Proyek"],
 };
 
 export const skillsEN = {
