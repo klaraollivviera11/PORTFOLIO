@@ -11,12 +11,8 @@ import {
 } from "@/lib/data";
 
 const socialLinks = [
-	{ icon: Github, label: "GitHub", href: "https://github.com/klaraolliviera11" },
-	{
-		icon: Linkedin,
-		label: "LinkedIn",
-		href: "https://www.linkedin.com/in/klara-olliviera-augustine-gunawan-77bb20244/",
-	},
+	{ icon: Github, label: "GitHub", href: "https://github.com/klaraollivviera11" },
+	{ icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/klara-ollivviera-augustine-gunawan-77bb20244/" },
 	{ icon: Instagram, label: "Instagram", href: "https://www.instagram.com/klaraolivierra/" },
 ];
 
