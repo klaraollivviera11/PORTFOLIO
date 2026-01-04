@@ -30,9 +30,14 @@ const MOBILE_NAV_ICONS = {
   contact: Phone,
 };
 
-export default function Header({ lang, onLangToggle }) {
+export default function Header({
+  lang,
+  onLangToggle,
+  isNavigationOpen,
+  onOpenNavigation,
+  onCloseNavigation,
+}) {
   const [darkMode, setDarkMode] = useState(true);
-  const [isNavigationOpen, setIsNavigationOpen] = useState(false);
 
   useEffect(() => {
     document.documentElement.classList.add("dark");
@@ -56,8 +61,8 @@ export default function Header({ lang, onLangToggle }) {
     [lang]
   );
 
-  const openNavigation = () => setIsNavigationOpen(true);
-  const closeNavigation = () => setIsNavigationOpen(false);
+  const openNavigation = () => onOpenNavigation?.();
+  const closeNavigation = () => onCloseNavigation?.();
   const handleLanguageButton = () => {
     onLangToggle();
     closeNavigation();
@@ -72,7 +77,7 @@ export default function Header({ lang, onLangToggle }) {
       >
         <div className="mx-auto relative flex w-[min(100%,calc(100vw-6vw))] max-w-[2000px] items-center justify-between gap-4 py-4">
           <div className="flex items-center justify-start">
-            <span className="pointer-events-auto text-2xl font-semibold tracking-wide">
+            <span className="pointer-events-auto text-xl font-semibold tracking-wide">
               {lang === "EN" ? "Portfolio" : "Portofolio"}
             </span>
           </div>
@@ -222,7 +227,7 @@ export default function Header({ lang, onLangToggle }) {
                       <Icon size={20} />
                     </span>
                   </span>
-                  <span className="mobile-nav-link-label">{link.label}</span>
+                  <span className="mobile-nav-link-label text-lg">{link.label}</span>
                 </a>
               );
             })}
