@@ -130,7 +130,7 @@ export const experiencesID = {
     },
     {
       role: "Staff Divisi Acara",
-      company: "DINAMIK (Computer Science Student Association, UPI)",
+      company: "DINAMIK (Keluarga Mahasiswa Ilmu Komputer, UPI)",
       period: "2024 & 2025",
       summary: "Terlibat dalam pelaksanaan acara dies natalis jurusan serta menjadi penanggung jawab lomba poster tingkat nasional.",
     },
