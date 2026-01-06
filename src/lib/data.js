@@ -111,13 +111,6 @@ export const experiencesEN = {
       title: "Organizational Experience",
       items: [
         {
-          role: "Event Committee Member",
-          company: "DINAMIK (Computer Science Student Association, UPI)",
-          period: "2024 – 2025",
-          summary:
-            "Organized department anniversary events and served as PIC for a national-level poster competition.",
-        },
-        {
           role: "Public Relations",
           company: "Multimedia 06 (SMAN 6 Bandung)",
           period: "2021 – 2022",
@@ -130,6 +123,26 @@ export const experiencesEN = {
           period: "2021 – 2022",
           summary:
             "Handled organizational administration, documentation, and internal communication.",
+        },
+      ],
+    },
+    {
+      key: "volunteer",
+      title: "Volunteer Experience",
+      items: [
+        {
+          role: "Event Committee Member",
+          company: "DINAMIK 20 (Computer Science Student Association, UPI)",
+          period: "2025",
+          summary:
+            "Coordinated large-scale event logistics and program flow from initiation to execution for the department's annual anniversary celebration.",
+        },
+        {
+          role: "Poster Competition PIC",
+          company: "DINAMIK 19 (Computer Science Student Association, UPI)",
+          period: "2024",
+          summary:
+            "Led as the person in charge for the national-level poster competition, managing participant registrations and judging coordination.",
         },
       ],
     },
@@ -164,13 +177,6 @@ export const experiencesID = {
       title: "Pengalaman Organisasi",
       items: [
         {
-          role: "Staff Divisi Acara",
-          company: "DINAMIK (Keluarga Mahasiswa Ilmu Komputer, UPI)",
-          period: "2024 – 2025",
-          summary:
-            "Terlibat dalam pelaksanaan dies natalis jurusan serta menjadi penanggung jawab lomba poster tingkat nasional.",
-        },
-        {
           role: "Hubungan Masyarakat",
           company: "Multimedia 06 (SMAN 6 Bandung)",
           period: "2021 – 2022",
@@ -183,6 +189,26 @@ export const experiencesID = {
           period: "2021 – 2022",
           summary:
             "Mengelola administrasi, dokumentasi, dan komunikasi internal organisasi.",
+        },
+      ],
+    },
+    {
+      key: "volunteer",
+      title: "Pengalaman Kepanitiaan",
+      items: [
+        {
+          role: "Staff Divisi Acara",
+          company: "DINAMIK 20 (Keluarga Mahasiswa Ilmu Komputer, UPI)",
+          period: "2025",
+          summary:
+            "Mengkoordinasikan logistik acara berskala besar dan alur program dari inisiasi hingga pelaksanaan untuk perayaan ulang tahun tahunan jurusan.",
+        },
+        {
+          role: "PIC Lomba Poster",
+          company: "DINAMIK 19 (Keluarga Mahasiswa Ilmu Komputer, UPI)",
+          period: "2024",
+          summary:
+            "Menjadi penanggung jawab lomba poster tingkat nasional, mengelola pendaftaran peserta dan koordinasi juri.",
         },
       ],
     },
