@@ -85,63 +85,109 @@ export const skillsID = {
 
 export const experiencesEN = {
   title: "Experience",
-  content: [
+  sections: [
     {
-      role: "Full-stack Web Developer",
-      company: "CV XTRAHERA",
-      period: "November 2025",
-      summary: "Developed a Laravel-based financial archiving system for palm oil plantations with automated income calculation and reporting features.",
+      key: "work",
+      title: "Work Experience",
+      items: [
+        {
+          role: "Full-stack Web Developer",
+          company: "CV XTRAHERA",
+          period: "Nov 2025",
+          summary:
+            "Developed a Laravel-based financial archiving system for palm oil plantations with automated income calculation and reporting features.",
+        },
+        {
+          role: "Backend Developer",
+          company: "PT Ruang Makna Nusantara",
+          period: "Feb 2025 – May 2025",
+          summary:
+            "Built a company profile website using Laravel and Vue.js, including an admin panel and Docker-based deployment.",
+        },
+      ],
     },
     {
-      role: "Backend Developer",
-      company: "PT Ruang Makna Nusantara",
-      period: "Feb 2025 – May 2025",
-      summary: "Built a company profile website using Laravel and Vue.js, including an admin panel and Docker-based deployment.",
+      key: "organization",
+      title: "Organizational Experience",
+      items: [
+        {
+          role: "Event Committee Member",
+          company: "DINAMIK (Computer Science Student Association, UPI)",
+          period: "2024 – 2025",
+          summary:
+            "Organized department anniversary events and served as PIC for a national-level poster competition.",
+        },
+        {
+          role: "Public Relations",
+          company: "Multimedia 06 (SMAN 6 Bandung)",
+          period: "2021 – 2022",
+          summary:
+            "Managed external relations, permits, and communication for school media projects.",
+        },
+        {
+          role: "Secretary",
+          company: "Christian Students Association (SMAN 6 Bandung)",
+          period: "2021 – 2022",
+          summary:
+            "Handled organizational administration, documentation, and internal communication.",
+        },
+      ],
     },
-    {
-      role: "Event Committee Member",
-      company: "DINAMIK (Computer Science Student Association, UPI)",
-      period: "2024 & 2025",
-      summary: "Participated in organizing the department’s annual anniversary events and served as PIC for a national-level poster competition.",
-    },
-    {
-      role: "Public Relations",
-      company: "Multimedia 06 (SMAN 6 Bandung)",
-      period: "2022 – 2023",
-      summary: "Managed external relations, permits, and communication for school media projects.",
-    },
-  ]
-}
+  ],
+};
 
 export const experiencesID = {
   title: "Pengalaman",
-  content: [
+  sections: [
     {
-      role: "Full-stack Web Developer",
-      company: "CV XTRAHERA",
-      period: "November 2025",
-      summary: "Mengembangkan sistem arsip dan manajemen keuangan berbasis Laravel untuk perkebunan kelapa sawit dengan fitur perhitungan pendapatan dan pelaporan otomatis.",
+      key: "work",
+      title: "Pengalaman Kerja",
+      items: [
+        {
+          role: "Full-stack Web Developer",
+          company: "CV XTRAHERA",
+          period: "Nov 2025",
+          summary:
+            "Mengembangkan sistem arsip dan manajemen keuangan berbasis Laravel untuk perkebunan kelapa sawit dengan fitur perhitungan pendapatan dan pelaporan otomatis.",
+        },
+        {
+          role: "Backend Developer",
+          company: "PT Ruang Makna Nusantara",
+          period: "Feb 2025 – Mei 2025",
+          summary:
+            "Membangun website company profile menggunakan Laravel dan Vue.js dengan admin panel serta deployment berbasis Docker.",
+        },
+      ],
     },
     {
-      role: "Backend Developer",
-      company: "PT Ruang Makna Nusantara",
-      period: "Feb 2025 – May 2025",
-      summary: "Membangun website company profile menggunakan Laravel dan Vue.js dengan admin panel serta proses deployment berbasis Docker.",
+      key: "organization",
+      title: "Pengalaman Organisasi",
+      items: [
+        {
+          role: "Staff Divisi Acara",
+          company: "DINAMIK (Keluarga Mahasiswa Ilmu Komputer, UPI)",
+          period: "2024 – 2025",
+          summary:
+            "Terlibat dalam pelaksanaan dies natalis jurusan serta menjadi penanggung jawab lomba poster tingkat nasional.",
+        },
+        {
+          role: "Hubungan Masyarakat",
+          company: "Multimedia 06 (SMAN 6 Bandung)",
+          period: "2021 – 2022",
+          summary:
+            "Mengelola hubungan eksternal, perizinan, dan komunikasi organisasi untuk kegiatan media sekolah.",
+        },
+        {
+          role: "Sekretaris",
+          company: "Pamitraan Siswa Kristen (SMAN 6 Bandung)",
+          period: "2021 – 2022",
+          summary:
+            "Mengelola administrasi, dokumentasi, dan komunikasi internal organisasi.",
+        },
+      ],
     },
-    {
-      role: "Staff Divisi Acara",
-      company: "DINAMIK (Keluarga Mahasiswa Ilmu Komputer, UPI)",
-      period: "2024 & 2025",
-      summary: "Terlibat dalam pelaksanaan acara dies natalis jurusan serta menjadi penanggung jawab lomba poster tingkat nasional.",
-    },
-    {
-      role: "Hubungan Masyarakat",
-      company: "Multimedia 06 (SMAN 6 Bandung)",
-      period: "2022 – 2023",
-      summary: "Mengelola hubungan eksternal, perizinan, dan komunikasi organisasi untuk kegiatan media sekolah.",
-    },
-  ]
-}
+  ],
+};
 
 export const contactEN = {
   title: "Contact",
@@ -226,7 +272,7 @@ export const contactformID = {
 }
 
 export const ProjectEN = {
-  title: "Projects",
+  title: "Project",
   content: [
     {
       name: "SARIABIAN – Financial Archiving System",
