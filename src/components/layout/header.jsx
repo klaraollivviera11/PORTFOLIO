@@ -17,8 +17,8 @@ import {
 const NAV_LINKS = [
   { id: "about", en: "About", idn: "Tentang" },
   { id: "skills", en: "Skills", idn: "Skill" },
-  { id: "experiences", en: "Experiences", idn: "Pengalaman" },
-  { id: "projects", en: "Projects", idn: "Proyek" },
+  { id: "experiences", en: "Experience", idn: "Pengalaman" },
+  { id: "projects", en: "Project", idn: "Proyek" },
   { id: "contact", en: "Contact", idn: "Kontak" },
 ];
 
